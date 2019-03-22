@@ -43,10 +43,11 @@ h2,h3,p {
   float: left;
 }
 
-.veinte p{
-  padding: 1%;
+.quince{
   text-align: center;
-  margin: 3%;
+  font-size: 20px;
+  width: 15%;
+  float: left;
 }
 
 /* Pagina Responsiva */
@@ -55,4 +56,13 @@ h2,h3,p {
 }
 @media screen and (max-width:809px){
   img{display:none;}
+  .quince{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width:550px){
+  img{display:none;}
+  .quince{
+    font-size: 100%;
+  }
 }
