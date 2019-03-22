@@ -1,0 +1,58 @@
+/*
+    Author     : Jose Campos
+*/
+h1,h2,h3,p {
+  margin: 4%;
+}
+
+.carousel-inner{
+  max-height: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-primary {
+  background-color: #212529!important;
+}
+
+.nav-link{
+  font-size: 18px;
+  display: block;
+  padding: .5rem 1rem;
+}
+
+.imagen{
+  padding: 4%;
+  width: 600px; 
+  height: 400px;
+}
+
+.mitad{
+  width: 50%;
+  float: left;
+}
+
+.siete{
+  width: 70%;
+  float: left;
+}
+
+.tres{
+  width: 30%;
+  float: left;
+}
+
+.veinte p{
+  padding: 1%;
+  text-align: center;
+  margin: 3%;
+}
+
+/* Pagina Responsiva */
+@media screen and (min-width:810px) and (max-width:991px){
+    
+}
+@media screen and (max-width:809px){
+  img{display:none;}
+}
